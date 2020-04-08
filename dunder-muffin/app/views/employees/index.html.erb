@@ -1,0 +1,3 @@
+<% @employees.each do |emp| %>
+    <%= link_to emp.name, employee_path(emp) %>
+<% end %>
